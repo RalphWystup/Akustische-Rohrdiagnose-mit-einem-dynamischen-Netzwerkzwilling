@@ -1,5 +1,7 @@
 # Akustische Rohrdiagnose mit einem dynamischen Netzwerkzwilling
 
+<img src="Foto_Ralph_Wystup.jpg" align="right" width="140" alt="Prof. Dr.-Ing. Ralph Wystup">
+
 Prof. Dr.-Ing. Ralph Wystup M.Sc. — erstellt mit KI und Agent (Claude Code, Anthropic)
 
 Aufgabe, Ansatz, Methode und Beweisführung — von der Impulsantwort zur Identifikation von Seitenrohr und Belag, mit einer überlagerten lernenden Ebene.
