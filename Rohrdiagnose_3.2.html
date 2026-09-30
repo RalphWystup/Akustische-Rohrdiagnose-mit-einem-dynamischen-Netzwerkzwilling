@@ -1,5 +1,28 @@
 <!doctype html>
-<html lang="de"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="author" content="Prof. Dr.-Ing. Ralph Wystup"><title>Akustische Rohrdiagnose · Rohr und Netzwerkzwilling</title>
+<html lang="de"><head><meta charset="utf-8">
+<!-- kopfangaben:anfang -->
+<meta name="description" content="Von der Impulsantwort zur Erkennung von Seitenrohr und Belag, mit einer überlagerten lernenden Ebene und einer benannten Nachweisgrenze.">
+<meta name="author" content="Prof. Dr.-Ing. Ralph Wystup M.Sc.">
+<meta name="keywords" content="Rohrdiagnose, Impulsantwort, Netzwerkzwilling, Akustik, Zustandsüberwachung">
+<link rel="canonical" href="https://ralphwystup.github.io/Akustische-Rohrdiagnose-mit-einem-dynamischen-Netzwerkzwilling/">
+<meta property="og:type" content="article">
+<meta property="og:locale" content="de_DE">
+<meta property="og:site_name" content="Ralph Wystup — Elektrotechnik">
+<meta property="og:title" content="Akustische Rohrdiagnose mit einem dynamischen Netzwerkzwilling">
+<meta property="og:description" content="Von der Impulsantwort zur Erkennung von Seitenrohr und Belag, mit einer überlagerten lernenden Ebene und einer benannten Nachweisgrenze.">
+<meta property="og:url" content="https://ralphwystup.github.io/Akustische-Rohrdiagnose-mit-einem-dynamischen-Netzwerkzwilling/Rohrdiagnose_3.2.html">
+<meta property="og:image" content="https://ralphwystup.github.io/Foto_Ralph_Wystup.jpg">
+<meta name="twitter:card" content="summary">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"TechArticle","headline":"Akustische Rohrdiagnose mit einem dynamischen Netzwerkzwilling",
+ "description":"Von der Impulsantwort zur Erkennung von Seitenrohr und Belag, mit einer überlagerten lernenden Ebene und einer benannten Nachweisgrenze.","url":"https://ralphwystup.github.io/Akustische-Rohrdiagnose-mit-einem-dynamischen-Netzwerkzwilling/","inLanguage":"de",
+ "license":"https://opensource.org/licenses/MIT",
+ "author":{"@type":"Person","name":"Prof. Dr.-Ing. Ralph Wystup M.Sc.","url":"https://ralphwystup.github.io/"},
+ "publisher":{"@type":"Person","name":"Prof. Dr.-Ing. Ralph Wystup M.Sc."},
+ "isPartOf":{"@type":"Collection","name":"Lehr- und Laborarbeiten zur Elektrotechnik","url":"https://ralphwystup.github.io/"},
+ "keywords":"Rohrdiagnose, Impulsantwort, Netzwerkzwilling, Akustik, Zustandsüberwachung"}
+</script>
+<!-- kopfangaben:ende --><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="author" content="Prof. Dr.-Ing. Ralph Wystup"><title>Akustische Rohrdiagnose · Rohr und Netzwerkzwilling</title>
 <style>
 :root{--ink:#193441;--teal:#087f80;--orange:#c16b23;--muted:#5a707b;--line:#d6e2e6;--bg:#eef3f5}*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:15px system-ui,Arial,sans-serif}header{background:#132f3e;color:white;padding:18px 26px;display:flex;justify-content:space-between;align-items:center;gap:16px}h1{font-size:24px;margin:3px 0}header small{color:#a2c9cc}button,select,input{font:inherit}button{border:0;border-radius:6px;padding:10px 13px;cursor:pointer;background:var(--teal);color:white;font-weight:600}button:disabled{opacity:.45;cursor:default}button.light{background:#dce9ec;color:var(--ink)}button:focus-visible,input:focus-visible,select:focus-visible{outline:3px solid #d89843;outline-offset:2px}.shell{max-width:1540px;margin:18px auto;padding:0 18px;display:grid;grid-template-columns:265px minmax(0,1fr);gap:16px}.panel,.card{background:white;border:1px solid var(--line);border-radius:10px;padding:16px}.panel{align-self:start;position:sticky;top:12px}h2{font-size:17px;margin:0 0 10px}h3{font-size:15px}p{line-height:1.5}label{display:block;font-size:13px;margin:14px 0 5px;font-weight:650}label output{float:right;color:var(--teal);font-variant-numeric:tabular-nums}input[type=range]{width:100%;accent-color:var(--teal)}select{width:100%;background:white;border:1px solid #bacdd4;border-radius:5px;padding:7px}.stack{display:grid;gap:13px;min-width:0}.hint{font-size:12px;color:var(--muted);line-height:1.45}.runbar{display:flex;gap:7px;flex-wrap:wrap;margin-top:15px}
 .check{display:flex;align-items:center;gap:8px}.check input{width:auto;accent-color:var(--teal)}
