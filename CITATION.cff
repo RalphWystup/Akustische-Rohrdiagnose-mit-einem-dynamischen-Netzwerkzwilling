@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "Wenn Sie diese Arbeit verwenden, zitieren Sie sie bitte wie folgt."
+title: "Akustische Rohrdiagnose mit einem dynamischen Netzwerkzwilling"
+abstract: "Von der Impulsantwort zur Erkennung von Seitenrohr und Belag, mit einer überlagerten lernenden Ebene und einer benannten Nachweisgrenze."
+type: software
+authors:
+  - family-names: Wystup
+    given-names: Ralph
+    name-particle: ""
+    name-suffix: "Prof. Dr.-Ing., M.Sc."
+license: MIT
+url: "https://ralphwystup.github.io/Akustische-Rohrdiagnose-mit-einem-dynamischen-Netzwerkzwilling/"
+repository-code: "https://github.com/RalphWystup/Akustische-Rohrdiagnose-mit-einem-dynamischen-Netzwerkzwilling"
+date-released: "2026-09-30"
+keywords:
+  - Rohrdiagnose
+  - Impulsantwort
+  - Netzwerkzwilling
+  - Akustik
+  - Zustandsüberwachung
